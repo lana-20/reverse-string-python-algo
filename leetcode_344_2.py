@@ -7,7 +7,7 @@ class Solution:
             if left < right:
                 s[left], s[right] = s[right], s[left]
                 reverse(left + 1, right - 1)
-        reverse(0, len(s) -
+        reverse(0, len(s) - 1)
 
 # Time: O(n) - Linear
 # Space: O(n) - Linear - Recursion
